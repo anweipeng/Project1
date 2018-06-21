@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Project1.iml" filepath="$PROJECT_DIR$/Project1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hospitalDeviceMonitor/hospitalDeviceMonitor.iml" filepath="$PROJECT_DIR$/hospitalDeviceMonitor/hospitalDeviceMonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lotteryapplication/lotteryapplication.iml" filepath="$PROJECT_DIR$/lotteryapplication/lotteryapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefresh_library/pullToRefresh_library.iml" filepath="$PROJECT_DIR$/pullToRefresh_library/pullToRefresh_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testapplication/testapplication.iml" filepath="$PROJECT_DIR$/testapplication/testapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxinglibrary/zxinglibrary.iml" filepath="$PROJECT_DIR$/zxinglibrary/zxinglibrary.iml" />
+    </modules>
+  </component>
+</project>

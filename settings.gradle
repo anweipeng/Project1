@@ -1,0 +1,3 @@
+include ':pullToRefresh_library',  ':hospitalDeviceMonitor',':lotteryapplication',':testapplication'
+
+include ':zxinglibrary'

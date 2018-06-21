@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/alertdialog_shape"
+    >
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_11"
+            android:layout_marginBottom="@dimen/dp_11"
+            android:text="提示"
+            android:textSize="16sp"
+            android:textColor="#b61e1d"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#b61e1d"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_28"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/msg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017011023"
+            android:textSize="15sp"
+            android:textColor="#b61e1d"/>
+
+        <TextView
+            android:id="@+id/msg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已截止请确认期次投注！"
+            android:textSize="15sp"
+            android:textColor="#666666"/>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/cancel"
+            android:layout_width="199dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="@dimen/dp_28"
+            android:layout_marginBottom="@dimen/dp_28"
+            android:text="我知道了"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/alertdialog_btn"
+            />
+
+    </LinearLayout>

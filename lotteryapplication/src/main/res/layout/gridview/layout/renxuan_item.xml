@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_40"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/common_play_unselected"
+
+    >
+
+    <TextView
+        android:id="@+id/renXuanItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:textSize="@dimen/sp_13"
+        android:text="任选一"
+        />
+
+    <TextView
+        android:id="@+id/renXuanItemBonusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#909090"
+        android:textSize="@dimen/sp_9"
+        android:text="奖金13元"
+        />
+
+</LinearLayout>

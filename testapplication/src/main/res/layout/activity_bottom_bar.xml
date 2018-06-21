@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BottomBarActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/transparent">
+
+        <TextView
+            android:id="@+id/txt_topbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="信息"
+            android:textColor="@color/text_gray"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/text_gray" />
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:paddingTop="0px"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rd_menu_deal"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/zhichu"
+            android:text="点餐"
+            android:drawablePadding="3dp"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/rd_menu_poi"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/youxiang"
+            android:text="商铺"/>
+
+        <RadioButton
+            android:id="@+id/rd_menu_more"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/yaoyiyao"
+            android:text="更多"/>
+
+        <RadioButton
+            android:id="@+id/rd_menu_user"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/yinhangka"
+            android:text="用户"/>
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rd_group"
+        android:layout_below="@id/ly_top_bar"
+        android:background="@color/transparent">
+    </FrameLayout>
+</RelativeLayout>
